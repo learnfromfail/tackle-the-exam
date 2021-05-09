@@ -1,24 +1,14 @@
 # tackle-dse
 
-## Project setup
-```
-npm install
-```
+# Description
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+*a website comming soon. Time is precious, so don't wait but work hard and smartly  
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+*a anti-social IT man called Eric who tries to help confusing DSE students like him in the past  
+*also a good place to introduce my IT techniques
+ 
+ # Technique used
+ 
+*Many inspiration from "vue crash course" searched in Youtube  
+Of course [XXX crash course] searched in Youtube always provide us with invalue learning resources  
+https://goalkicker.com/
