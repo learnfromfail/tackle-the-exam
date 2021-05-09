@@ -1,11 +1,12 @@
 <template>
-    <h3>Contacts:</h3>
+    <footer>
+        <h3>Web master: Eric Kwok</h3>
+    </footer>
 </template>
 
 <script>
-export default defineComponent({
-    setup() {
+export default {
+    name: 'footer'
         //testing
-    },
-})
+}
 </script>
