@@ -1,7 +1,7 @@
 <template>
     <footer>
-        <h3> 鳴謝：</h3>
-        <h3>天地萬物<br>一切一切</h3>
+        <h3>哲學廣告</h3>
+        <h3>「陰陽知行」<br>「自<span style="color:red">愛愛</span>人」</h3>
     </footer>
 </template>
 
@@ -12,7 +12,8 @@ export default {
 </script>
 <style scoped>
 footer{
-    top: 500px;
+    bottom: 1%;
+    left: 1%;
     height: auto;
     width: 130px;
     z-index: 100;

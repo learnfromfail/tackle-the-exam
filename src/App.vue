@@ -1,15 +1,7 @@
 <template>
 
-  <Header />
-  <img alt="Vue logo" src="./assets/logo.png">
-  <br>
-
-  <img alt="Vue logo" src="./assets/logo.png">
-  <br>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <br>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <br>
+  <Header :subHeader="'Welcome to be here!'" />
+  <router-view></router-view>
   <Footer/>
 </template>
 
