@@ -1,6 +1,7 @@
 # tackle-dse
 
 # Description
+before June Will go to Production
 
 *a website comming soon. Time is precious, so don't wait but work hard and smartly  
 *a anti-social IT man called Eric who tries to help confusing DSE students like him in the past  
