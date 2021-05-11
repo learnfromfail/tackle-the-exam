@@ -20,5 +20,7 @@ footer{
     position: fixed;
     padding: 10px;
     border: 1px solid black;
+    background: white;
+    background: #c6f0c6;
 }
 </style>

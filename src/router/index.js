@@ -5,6 +5,11 @@ import Exam from '../views/Exam'
 
 const routes = [
   {
+    path: '/',
+    name: '/Home',
+    component: Home,
+  },
+  {
     path: '/Home',
     name: '/',
     component: Home,
