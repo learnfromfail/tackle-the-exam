@@ -2,12 +2,15 @@
   <header>
     <div id="menu">
       <div :key="option.id" v-for="option in options">
-        <div v-show="option != `Exam Notes` && option != `Back`" @click="updateSubHeader(`main`, option)">
+        <div v-show="option != `Exam Notes` && option != `Back` && option != `Past Papers`" @click="updateSubHeader(`main`, option)">
           <router-link :to="'/' + option">{{ option }}</router-link>
         </div>
         <div v-show="option == `Exam Notes`" @click="updateSubHeader(`sub`, option)">
-          <router-link :to="'/' + option">{{ option }}</router-link>
+          <router-link to="/ExamNotes">{{ option }}</router-link>
         </div>
+        <div v-show="option == `Past Papers`" @click="updateSubHeader(`main`, option)">
+          <router-link to="/PastPapers">{{ option }}</router-link>
+        </div>  
         <div v-show="option == `Back`" @click="updateSubHeader(`main`, option)">
           <router-link to="/Home">{{ option }}</router-link>
         </div>
@@ -15,7 +18,7 @@
     </div>
   </header>
   <div id="topBanner">
-    {{ subHeader }}
+    Tackle-DSE［{{ subHeader }}］
   </div>
 </template>
 
@@ -47,12 +50,12 @@ export default {
       if (theValue == "sub") 
         this.options = ["Back","Chin[<2023!]","Eng" ,"Math", "Phy", "Chem", "M2"];
       else if(theValue == "main")
-        this.options = ["Home", "About", "Exam Notes", "Life Hack", "Info Tech", "Quotes"];
+        this.options = ["Home", "About", "Exam Notes", "Past Papers", "Life Hack", "Info Tech", "Quotes"];
       this.subHeader = theName != "Back" ? theName : "Home";
     },
   },
   created(){
-    this.options = ["Home", "About", "Exam Notes", "Life Hack", "Info Tech", "Quotes"];
+    this.options = ["Home", "About", "Exam Notes", "Past Papers", "Life Hack", "Info Tech", "Quotes"];
   }
 };
 </script>

@@ -37,6 +37,6 @@ p.content {
   align-items: center;
   justify-content: center;
   font-size: 20px;
-  margin: 2% 20% 0% 20%; /* 上左右下 */
+  margin: 2% 20% 0% 20%; /* 上 右 下 左*/
 }
 </style>

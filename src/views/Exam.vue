@@ -1,5 +1,6 @@
 <template>
     <p>{{content}}</p>
+    <br><br>
 </template>
 
 <script>
