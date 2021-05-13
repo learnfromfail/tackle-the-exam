@@ -10,5 +10,6 @@ before June Will go to Production
  # Technique used
  
 *Many inspiration from "vue crash course" searched in Youtube  
-Of course [XXX crash course] searched in Youtube always provide us with invalue learning resources  
-https://goalkicker.com/
+Of course!  
+The [XXX crash course] searched in Youtube always provide us with invaluable learning resources  
+[https://goalkicker.com/] written by stackoverflow members is also very Great!
