@@ -3,11 +3,17 @@ import Home from '../views/Home'
 import About from '../views/About'
 import Exam from '../views/Exam'
 import Pastpapers from '../views/PastPapers'
+import Display from '../views/Display'
 
 const routes = [
   {
+    path: '/Display',
+    name: 'Display',
+    component: Display,
+  },
+  {
     path: '/',
-    name: '/Home',
+    name: 'Home',
     component: Home,
   },
   {

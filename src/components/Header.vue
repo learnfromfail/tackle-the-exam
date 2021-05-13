@@ -2,10 +2,10 @@
   <header>
     <div id="menu">
       <div :key="option.id" v-for="option in options">
-        <div v-show="option != `Exam Notes` && option != `Back` && option != `Past Papers`" @click="updateSubHeader(`main`, option)">
+        <div v-show="option != `Exam Notes` && option != `Back` && option != `Past Papers` && !array2.includes(option)"  @click="updateSubHeader(`main`, option)">
           <router-link :to="'/' + option">{{ option }}</router-link>
         </div>
-        <div v-show="option == `Exam Notes`" @click="updateSubHeader(`sub`, option)">
+        <div v-show="array2.includes(option) || option == `Exam Notes`" @click="updateSubHeader(`sub`, option)">
           <router-link to="/ExamNotes">{{ option }}</router-link>
         </div>
         <div v-show="option == `Past Papers`" @click="updateSubHeader(`main`, option)">
@@ -41,6 +41,8 @@ export default {
   data() {
     return {
       options: [],
+      array1: [],
+      array2: [],
       subHeader: "Home",
       //isMenuChanged : false,
     };
@@ -55,7 +57,9 @@ export default {
     },
   },
   created(){
-    this.options = ["Home", "About", "Exam Notes", "Past Papers", "Life Hack", "Info Tech", "Quotes"];
+    this.array1 = ["Home", "About", "Exam Notes", "Past Papers", "Life Hack", "Info Tech", "Quotes"];
+    this.options = this.array1;
+    this.array2 = ["Chin[<2023!]","Eng" ,"Math", "Phy", "Chem", "M2"];
   }
 };
 </script>
