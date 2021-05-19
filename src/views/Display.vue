@@ -1,24 +1,6 @@
 <template>
-    <div
-      id="p1"
-      style="overflow: hidden; position: relative; background-color: white; width: 909px; height: 1286px;"
-    >
-  <div
-        id="pg1Overlay"
-        style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"
-      ></div>
-      <!-- <div id="pg1" style="-webkit-user-select: none;">
-        <object
-          width="909"
-          height="1286"
-          data="1/1.svg"
-          type="image/svg+xml"
-          id="pdf1"
-          style="width:909px; height:1286px; -moz-transform:scale(1); z-index: 0;"
-        ></object>
-      </div> -->
-      <!-- End page background -->
-
+    <div id="p1">
+      <pageOne />
       <!-- Begin text definitions (Positioned/styled in CSS) -->
       <div id="t1_1" class="t s1_1">Ch.1 Complex number</div>
       <div id="t2_1" class="t s2_1">○</div>
@@ -90,48 +72,60 @@
   </div>
 </template>
 <script>
+import pageOne from "../notes/maths/1/pageOne.vue";
 export default {
     name: "Display",
     props:{
 
+    },
+    components:{
+      pageOne,
     }
 }
 </script>
 <style scoped>
-   @font-face {
-          font-family: Bauhaus93_4;
-          src: url("../notes/maths/fonts/Bauhaus93_4.woff") format("woff");
-        }
+  #p1 {
+    left : 10%;
+    overflow: hidden; 
+    position: relative; 
+    background-color: white; 
+    width: 909px; 
+    height: 1286px;
+  }
+  @font-face {
+    font-family: Bauhaus93_4;
+    src: url("../notes/maths/fonts/Bauhaus93_4.woff") format("woff");
+  }
 
-        @font-face {
-          font-family: CambriaMath_u;
-          src: url("../notes/maths/fonts/CambriaMath_u.woff") format("woff");
-        }
+  @font-face {
+    font-family: CambriaMath_u;
+    src: url("../notes/maths/fonts/CambriaMath_u.woff") format("woff");
+  }
 
-        @font-face {
-          font-family: CambriaMath_u_1;
-          src: url("../notes/maths/fonts/CambriaMath_u_1.woff") format("woff");
-        }
+  @font-face {
+    font-family: CambriaMath_u_1;
+    src: url("../notes/maths/fonts/CambriaMath_u_1.woff") format("woff");
+  }
 
-        @font-face {
-          font-family: SimSun_c;
-          src: url("../notes/maths/fonts/SimSun_c.woff") format("woff");
-        }
+  @font-face {
+    font-family: SimSun_c;
+    src: url("../notes/maths/fonts/SimSun_c.woff") format("woff");
+  }
 
-        @font-face {
-          font-family: TimesNewRoman-Bold_11;
-          src: url("../notes/maths/fonts/TimesNewRoman-Bold_11.woff") format("woff");
-        }
+  @font-face {
+    font-family: TimesNewRoman-Bold_11;
+    src: url("../notes/maths/fonts/TimesNewRoman-Bold_11.woff") format("woff");
+  }
 
-        @font-face {
-          font-family: sub_TimesNewRoman-Bold_lfb;
-          src: url("../notes/maths/fonts/sub_TimesNewRoman-Bold_lfb.woff") format("woff");
-        }
+  @font-face {
+    font-family: sub_TimesNewRoman-Bold_lfb;
+    src: url("../notes/maths/fonts/sub_TimesNewRoman-Bold_lfb.woff") format("woff");
+  }
 
-        @font-face {
-          font-family: sub_TimesNewRoman_lfr;
-          src: url("../notes/maths/fonts/sub_TimesNewRoman_lfr.woff") format("woff");
-        }
+  @font-face {
+    font-family: sub_TimesNewRoman_lfr;
+    src: url("../notes/maths/fonts/sub_TimesNewRoman_lfr.woff") format("woff");
+  }
   .t {
     transform-origin: bottom left;
     z-index: 2;
@@ -476,7 +470,7 @@ export default {
     font-family: SimSun_c;
     color: #000;
     -webkit-text-stroke: 0.9px #000;
-    text-stroke: 0.9px #000;
+    /*text-stroke: 0.9px #000;*/
   }
   .s6_1 {
     font-size: 21px;
