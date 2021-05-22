@@ -2,17 +2,17 @@
   <header>
     <div id="menu">
       <div :key="option.id" v-for="option in options">
-        <div v-show="option != `Exam Notes` && option != `Back` && option != `Past Papers` && !array2.includes(option)"  @click="updateSubHeader(`main`, option)">
-          <router-link :to="'/' + option">{{ option }}</router-link>
+        <div v-show="option != `Exam Notes` && option != `Back` && option != `Past Papers` && !array2.includes(option)">
+          <router-link :to="'/' + option" @click="updateSubHeader(`main`, option)">{{ option }}</router-link>
         </div>
-        <div v-show="array2.includes(option) || option == `Exam Notes`" @click="updateSubHeader(`sub`, option)">
-          <router-link to="/ExamNotes">{{ option }}</router-link>
+        <div v-show="array2.includes(option) || option == `Exam Notes`">
+          <router-link to="/ExamNotes" @click="updateSubHeader(`sub`, option)">{{ option }}</router-link>
         </div>
-        <div v-show="option == `Past Papers`" @click="updateSubHeader(`main`, option)">
-          <router-link to="/PastPapers">{{ option }}</router-link>
+        <div v-show="option == `Past Papers`">
+          <router-link to="/PastPapers" @click="updateSubHeader(`main`, option)">{{ option }}</router-link>
         </div>  
-        <div v-show="option == `Back`" @click="updateSubHeader(`main`, option)">
-          <router-link to="/Home">{{ option }}</router-link>
+        <div v-show="option == `Back`">
+          <router-link to="/Home" @click="updateSubHeader(`main`, option)">{{ option }}</router-link>
         </div>
       </div>
     </div>
