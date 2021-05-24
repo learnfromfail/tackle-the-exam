@@ -3,14 +3,12 @@
     </p>
     <p class="left">{{content[1]}}<br>
     </p>
-    
     <p class="left">
     <a target="blank" 
     href="https://drive.google.com/drive/u/2/folders/10ZemZA56L_zVCq98c1Nd1NWSj9MbJhv8"
     >按我進入Google Drive</a>
     &nbsp;［多謝這位網友[DSExia HK]的Easy Notes Download］
     </p>
-    <br><br><br>
     <p class="left">
      ．這個有Physics及M2
     </p>
@@ -20,7 +18,6 @@
     >按我進入Google Drive</a> 
     &nbsp;［多謝這位[St. Joseph’s Anglo-Chinese School]的物理老師及小卒會員WellPlayed］ 
     </p>
-    <br><br><br>
     <p class="left">
      ．這個有Econ
     </p>
@@ -28,9 +25,28 @@
     <a target="blank" 
         href="https://drive.google.com/open?id=0Bz-HML99cdLTa2ZvejFWTkNhSlk"
     >按我進入Google Drive</a> 
-    &nbsp;［多謝小卒會員terence313］ 
+    &nbsp;［多謝小卒會員terence313及Sherlock T. Wong］ 
     </p>
-    <br><br>
+    <p class="left">
+     ．這個有English
+    </p>
+    <p class="left">
+    <a target="blank" 
+        href="https://www.dropbox.com/sh/qcm5vftbejqt0n3/AAAUwrLbYyDU9c7Vi8cLjYula?dl=0"
+    >按我進入Drop box</a> 
+    &nbsp;［多謝連登會員<a target="blank" 
+        href="https://lihkg.com/thread/1500572/page/1"
+    >金娜娜</a> ］ 
+    </p>
+    <p class="left" style="color: red;font-weight: bold;">
+     ．某位網友 把 所有notes放在同一個Drive，比便大家一併過下載吧！
+    </p>
+    <p class="left" style="color: red;font-weight: bold;">
+    <a target="blank" 
+        href="https://drive.google.com/drive/u/0/folders/133aGG8zHaZjIXQ5wU91REMT_zLcHofPp"
+    >按我進入Google Drive</a> 
+    &nbsp;［感謝天地感謝世界］ 
+    </p>
 </template>
 
 <script>

@@ -7,7 +7,7 @@
       target="blank"
       href="https://drive.google.com/drive/folders/1vcrBvm7quJsG4uYpcF1NFmHAKXAEIDSg?usp=sharing"
       >按我進入Google Drive</a
-    >&nbsp;［多謝這位網友］
+    >&nbsp;［多謝這位網友提供的By-topic的PastPaper］
   </p>
   <p class="left">
     <a
@@ -16,6 +16,15 @@
       >&nbsp;HKCEE and HKALE Papers Collection</a
     >
     [公共資源]
+  </p>
+    <p class="left">
+    <a
+      target="blank"
+      href="https://drive.google.com/drive/folders/0By9lOB__2358WW5nY1RyTFhVQWM?usp=sharing"
+      >&nbsp;主要以HKDSE 2013前各位By-year的Past Paper</a
+    >
+    [按我進入Google Drive]
+    &nbsp;［多謝這位網友DreamHome Cloud］
   </p>
   <p class="content">
     <br />使用方法：<br /><br />Past
