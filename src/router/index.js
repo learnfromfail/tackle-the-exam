@@ -3,6 +3,10 @@ import Home from '../views/Home'
 import About from '../views/About'
 import Exam from '../views/Exam'
 import Pastpapers from '../views/PastPapers'
+import LifeHack from '../views/LifeHack'
+import InfoTech from '../views/InfoTech'
+import Quotes from '../views/Quotes'
+
 import Display from '../views/Display'
 
 const routes = [
@@ -35,6 +39,21 @@ const routes = [
     path: '/PastPapers',
     name: 'Pastpapers',
     component: Pastpapers,
+  },
+  {
+    path: '/LifeHack',
+    name: 'LifeHack',
+    component: LifeHack,
+  },
+  {
+    path: '/InfoTech',
+    name: 'InfoTech',
+    component: InfoTech,
+  },
+  {
+    path: '/Quotes',
+    name: 'Quotes',
+    component: Quotes,
   },
 ]
 

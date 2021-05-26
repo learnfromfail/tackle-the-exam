@@ -21,9 +21,8 @@
     <a
       target="blank"
       href="https://drive.google.com/drive/folders/0By9lOB__2358WW5nY1RyTFhVQWM?usp=sharing"
-      >&nbsp;主要以HKDSE 2013前各位By-year的Past Paper</a
+      >&nbsp;主要以HKDSE 2013前各科 By-year的Past Paper</a
     >
-    [按我進入Google Drive]
     &nbsp;［多謝這位網友DreamHome Cloud］
   </p>
   <p class="content">

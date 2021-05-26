@@ -2,7 +2,7 @@
   <header>
     <div id="menu">
       <div :key="option.id" v-for="option in options">
-        <div v-show="option != `Exam Notes` && option != `Back` && option != `Past Papers` && !array2.includes(option)">
+        <div v-show="option != `Back` && !array3.includes(option) && !array2.includes(option)">
           <router-link :to="'/' + option" @click="updateSubHeader(`main`, option)">{{ option }}</router-link>
         </div>
         <div v-show="array2.includes(option) || option == `Exam Notes`">
@@ -10,6 +10,12 @@
         </div>
         <div v-show="option == `Past Papers`">
           <router-link to="/PastPapers" @click="updateSubHeader(`main`, option)">{{ option }}</router-link>
+        </div>  
+        <div v-show="option == `Life Hack`">
+          <router-link to="/LifeHack" @click="updateSubHeader(`main`, option)">{{ option }}</router-link>
+        </div>  
+        <div v-show="option == `Info Tech`">
+          <router-link to="/InfoTech" @click="updateSubHeader(`main`, option)">{{ option }}</router-link>
         </div>  
         <div v-show="option == `Back`">
           <router-link to="/Home" @click="updateSubHeader(`main`, option)">{{ option }}</router-link>
@@ -50,7 +56,7 @@ export default {
   methods: {
     updateSubHeader(theValue, theName) {
       if (theValue == "sub") 
-        this.options = ["Back","Chin[<2023!]","Eng" ,"Math", "Phy", "Chem", "M2"];
+        this.options = ["Back","Chin[<2025!]","Eng[<2024!]" ,"Math[<2023!]", "Phy[<2024!]", "Chem[<2024!]", "M2[<2022!]"];
       else if(theValue == "main")
         this.options = ["Home", "About", "Exam Notes", "Past Papers", "Life Hack", "Info Tech", "Quotes"];
       this.subHeader = theName != "Back" ? theName : "Home";
@@ -59,7 +65,8 @@ export default {
   created(){
     this.array1 = ["Home", "About", "Exam Notes", "Past Papers", "Life Hack", "Info Tech", "Quotes"];
     this.options = this.array1;
-    this.array2 = ["Chin[<2023!]","Eng" ,"Math", "Phy", "Chem", "M2"];
+    this.array2 = ["Chin[<2025!]","Eng[<2024!]" ,"Math[<2023!]", "Phy[<2024!]", "Chem[<2024!]", "M2[<2022!]"];//not finished
+    this.array3 = ["Exam Notes","Past Papers" ,"Life Hack", "Info Tech"];//spaces
   }
 };
 </script>
