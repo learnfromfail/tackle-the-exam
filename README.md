@@ -1,7 +1,9 @@
 # tackle-dse
 
 # Description
-before June Will go to Production
+before August... Will go to Production.... 
+A Web version will be release....
+and then maintain for years!
 
 *a website comming soon. Time is precious, so don't wait but work hard and smartly  
 *a anti-social IT man called Eric who tries to help confusing DSE students like him in the past  
