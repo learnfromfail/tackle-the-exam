@@ -7,9 +7,16 @@ import LifeHack from '../views/LifeHack'
 import InfoTech from '../views/InfoTech'
 import Quotes from '../views/Quotes'
 
+import M2 from '../views/notes/m2'
+
 import Display from '../views/Display'
 
 const routes = [
+  {
+    path: '/M2',
+    name: 'M2',
+    component: M2,
+  },
   {
     path: '/Display',
     name: 'Display',
