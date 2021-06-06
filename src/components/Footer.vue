@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <h3>哲學廣告</h3>
+        <h3>生命又是一回怎樣的事？</h3>
         <h3>「陰陽知行」<br>「自<span style="color:red">愛愛</span>人」</h3>
     </footer>
 </template>

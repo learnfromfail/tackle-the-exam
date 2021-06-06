@@ -39,4 +39,10 @@ p.content {
   font-size: 20px;
   margin: 2% 20% 0% 20%; /* 上 右 下 左*/
 }
+.blockCenter{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
 </style>

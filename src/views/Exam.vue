@@ -38,15 +38,17 @@
         href="https://lihkg.com/thread/1500572/page/1"
     >金娜娜</a> ］ 
     </p>
-    <p class="left" style="color: red;font-weight: bold;">
-     ．某位網友 把 所有notes放在同一個Drive，比便大家一併過下載吧！
-    </p>
-    <p class="left" style="color: red;font-weight: bold;">
-    <a target="blank" 
-        href="https://drive.google.com/drive/u/0/folders/133aGG8zHaZjIXQ5wU91REMT_zLcHofPp"
-    >按我進入Google Drive</a> 
-    &nbsp;［感謝天地感謝世界］ 
-    </p>
+    <div class="blockCenter" style="border:4px solid black;width:70%;">
+        <p class="left" style="color: red;font-weight: bold;">
+        ．某位網友 把 所有notes放在同一個Drive，比便大家一併過下載吧！
+        </p>
+        <p class="left" style="color: red;font-weight: bold;">
+        <a target="blank" 
+            href="https://drive.google.com/drive/u/0/folders/133aGG8zHaZjIXQ5wU91REMT_zLcHofPp"
+        >按我進入Google Drive</a> 
+        &nbsp;［感謝天地感謝世界］ 
+        </p>
+    </div>
 </template>
 
 <script>
@@ -83,5 +85,10 @@ p.left {
   justify-content: left;
   font-size: 20px;
   margin: 1.5% 20% 0% 20%;
+}
+div.special {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 </style>

@@ -2,7 +2,7 @@
   <p class="content" :key="content_.id" v-for="content_ in content">
     {{ content_ }}<br />
   </p>
-  <p class="left">
+  <p class="left" style="border: 4px solid red">
     <a
       target="blank"
       href="https://drive.google.com/drive/folders/1vcrBvm7quJsG4uYpcF1NFmHAKXAEIDSg?usp=sharing"
