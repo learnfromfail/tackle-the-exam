@@ -27,7 +27,11 @@
     </div>
   </header>
   <div id="topBanner">
-    Tackle-DSE［{{ subHeader }}］
+    <div class="BannerSon BannerSonLeft" style="justify-content:flex-start">
+      <img style="width:40%;padding-top:8%" src="@/assets/WebLogo2.svg" alt="logo">
+    </div>
+    <div class="BannerSon" >Tackle-DSE［{{ subHeader }}］</div><!-- style="background-color:yellow" -->
+    <div class="BannerSon BannerSonRight" ></div><!-- style="background-color:yellow" -->
   </div>
 </template>
 
@@ -95,6 +99,16 @@ export default {
   align-items: center;
   justify-content: center;
 }
+.BannerSon{
+
+}
+
+.BannerSon{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 #menu {
   top: 15%;
   left: 1%;
