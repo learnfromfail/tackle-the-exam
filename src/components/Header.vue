@@ -5,8 +5,11 @@
         <div v-show="option != `Back` && !array3.includes(option) && !array2.includes(option)">
           <router-link :to="'/' + option" @click="updateSubHeader(`main`, option)">{{ option }}</router-link>
         </div>
-        <div v-show="array2.includes(option) || option == `Exam Notes`">
-          <router-link to="/ExamNotes" @click="updateSubHeader(`sub`, option)">{{ option }}</router-link>
+        <div v-show="array2.includes(option)">
+          <router-link :to="'/ExamNotes/'+option" @click="updateSubHeader(`sub`, option)">{{ option }}</router-link>
+        </div>
+        <div v-show="option == `Exam Notes`">
+          <router-link to="/ExamNotes/" @click="updateSubHeader(`sub`, option)">{{ option }}</router-link>
         </div>
         <div v-show="option == `Past Papers`">
           <router-link to="/PastPapers" @click="updateSubHeader(`main`, option)">{{ option }}</router-link>

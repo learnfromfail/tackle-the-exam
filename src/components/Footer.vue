@@ -1,7 +1,8 @@
 <template>
     <footer>
-        <h3>生命又是一回怎樣的事？</h3>
-        <h3>「陰陽知行」<br>「自<span style="color:red">愛愛</span>人」</h3>
+        <h3>＜思考＞</h3>
+        <h4>生命又是一回怎樣的事？</h4>
+        <h4>你可以成為一個好人，但絕不能成為被［他人利用你善良的］白痴！</h4>
     </footer>
 </template>
 

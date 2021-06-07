@@ -13,7 +13,7 @@ import Display from '../views/Display'
 
 const routes = [
   {
-    path: '/M2',
+    path: '/ExamNotes/M2',
     name: 'M2',
     component: M2,
   },
