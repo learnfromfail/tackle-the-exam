@@ -1,27 +1,43 @@
 <template>
-    <footer>
-        <h3>＜思考＞</h3>
-        <h4>生命又是一回怎樣的事？</h4>
-        <h4>你可以成為一個好人，但絕不能成為被［他人利用你善良的］白痴！</h4>
-    </footer>
+  <br /><br /><br />
+  <div class="container">
+    <br /><br /><br />
+    <div class="left"></div>
+    <div class="middle"></div>
+    <div class="right"></div>
+  </div>
 </template>
 
 <script>
 export default {
-    name: 'footer'
-}
+  name: "footer",
+};
 </script>
 <style scoped>
-footer{
-    bottom: 1%;
-    left: 1%;
-    height: auto;
-    width: 130px;
-    z-index: 100;
-    position: fixed;
-    padding: 10px;
-    border: 1px solid black;
-    background: white;
-    background: #c6f0c6;
+footer,
+.container {
+  width: 100%;
+  height: 100%;
+  background: #c6f0c6;
+  display: block;
+}
+.left {
+  float: left;
+  width: 33%;
+}
+.middle {
+  float: left;
+  width: 34%;
+}
+.right {
+  float: left;
+  width: 33%;
+}
+
+.left,
+.right,
+.middle {
+  background: #c6f0c6;
+  height: 100%;
 }
 </style>

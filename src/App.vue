@@ -1,7 +1,9 @@
 <template>
-  <Header :subHeader="'Welcome to be here!'" />
-  <p class="header"><br /><br /><br /></p>
-  <router-view></router-view>
+  <Header />
+  <p class="header"><br/></p>
+  <div style="min-height: 78vh">
+    <router-view></router-view>
+  </div>
   <Footer />
 </template>
 
