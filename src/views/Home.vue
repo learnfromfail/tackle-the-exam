@@ -1,7 +1,11 @@
 <template>
-    <p class="content" :key="content_.id" v-for="content_ in content">
-        {{content_}}<br />
-    </p>
+    <br>
+    <div class="block" :key="content_.id" v-for="content_ in content">
+      {{content_}}<br><br><hr style="width:60%">
+    </div>
+    <textarea style="width:40%">仍然在Development stage漫漫征途的路上。
+10/6/2021
+    </textarea>
 </template>
 
 <script>
@@ -26,9 +30,11 @@ export default {
 }
 </script>
 <style scoped>
-/* 
-<div :key="content123.id" v-for="content123 in 100">
-    {{content}}
-</div>
-*/
+  .block {
+    font-size: 19px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
 </style>
