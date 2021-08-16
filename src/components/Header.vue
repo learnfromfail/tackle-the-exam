@@ -61,7 +61,7 @@ export default {
   methods: {
     updateSubHeader(theValue, theName) {
       if (theValue == "sub") 
-        this.options = ["Back"/*,"Chin[<2025!]","Eng[<2024!]" ,"Math[<2023!]", "Phy[<2024!]", "Chem[<2024!]"*/, "M2[<2022!]"];
+        this.options = ["Back"/*,"Chin[<2025!]","Eng[<2024!]" ,"Math[<2023!]", "Phy[<2024!]", "Chem[<2024!]"*/, "M2"];//M2[<2022!]
       else if(theValue == "main")
         this.options = ["Home", "About", "Exam Notes", "Past Papers", "Life Hack", "Info Tech", "Quotes",/*, "Updates"*/];
       this.subHeader = theName != "Back" ? theName : "Home";
@@ -73,7 +73,7 @@ export default {
   created(){
     this.array1 = ["Home", "About", "Exam Notes", "Past Papers", "Life Hack", "Info Tech", "Quotes"/*, "Updates"*/];
     this.options = this.array1;
-    this.array2 = [/*"Chin[<2025!]","Eng[<2024!]" ,"Math[<2023!]", "Phy[<2024!]", "Chem[<2024!]",*/ "M2[<2022!]"];//not finished
+    this.array2 = [/*"Chin[<2025!]","Eng[<2024!]" ,"Math[<2023!]", "Phy[<2024!]", "Chem[<2024!]",*/ "M2"];//not finished
     this.array3 = ["Exam Notes","Past Papers" ,"Life Hack", "Info Tech"];//spaces
   }
 };

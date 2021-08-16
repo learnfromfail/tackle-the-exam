@@ -1,5 +1,6 @@
 <template>
   <div class="blockCenter">
+    <LeftMenu />
     <p class="content" style="justify-content:left" :key="content_.id" v-for="content_ in content">
         ——{{content_}}<br />
     </p>
@@ -7,8 +8,13 @@
 </template>
 
 <script>
+import LeftMenu from "../../components/LeftMenu";
+
 export default {
   name: "M2",
+  components:{
+    LeftMenu
+  },
   props: {},
   data() {
     return {
@@ -18,7 +24,7 @@ export default {
   methods: {},
   created() {
     this.content =[
-      "Coming Soon."
+      "Comming soon"
     ];
   },
 };

@@ -3,7 +3,9 @@
   <div class="container">
     <br /><br /><br />
     <div class="left"></div>
-    <div class="middle"></div>
+    <div class="middle">
+      <!-- <div style="display:inline">1234</div> -->
+    </div>
     <div class="right"></div>
   </div>
 </template>
