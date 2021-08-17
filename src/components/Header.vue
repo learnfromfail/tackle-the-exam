@@ -2,7 +2,7 @@
   <div id="topBanner">
     <div class="BannerSon" style="width:70%;white-space: nowrap">
       <div class="BannerSon BannerSonLeft" style="justify-content:flex-start;width:10%;margin-right:8%">
-        <img style="width:40%;padding-top:35%;min-width: 160px" src="@/assets/WebLogo2.svg" alt="logo">
+        <img style="width:40%; padding-top:0%; min-width: 160px" src="@/assets/WebLogo2.svg" alt="logo">
       </div>
       <div :key="option.id" v-for="option in options" class="ArraysOption"> 
           <div v-show="option != `Back` && !array3.includes(option) && !array2.includes(option)">

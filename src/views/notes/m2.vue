@@ -1,6 +1,6 @@
 <template>
   <div class="blockCenter">
-    <LeftMenu />
+    <!-- <LeftMenu /> -->
     <p class="content" style="justify-content:left" :key="content_.id" v-for="content_ in content">
         ——{{content_}}<br />
     </p>
@@ -8,12 +8,12 @@
 </template>
 
 <script>
-import LeftMenu from "../../components/LeftMenu";
+// import LeftMenu from "../../components/LeftMenu";
 
 export default {
   name: "M2",
   components:{
-    LeftMenu
+    // LeftMenu
   },
   props: {},
   data() {

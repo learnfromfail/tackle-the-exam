@@ -1,8 +1,10 @@
 <template>
-  <div class="container">
-     <p class="content" style="justify-content:left" :key="content_.id" v-for="content_ in content">
-        #{{content_}}<br /><br />
-    </p>
+  <div class="sticky">
+    <br /><br /><br />
+     <span class="content" style="justify-content:left;margin-top:10px" :key="content_.id" v-for="(content_, index) in content">
+        <router-link :to="'./' + hyperlink[index]" >{{index+1}}. {{content_}}</router-link>
+    </span>
+    
   </div>
 </template>
 
@@ -13,6 +15,7 @@ export default {
   data() {
     return {
       content: "",
+      hyperlink: "",
     };
   },
   methods: {},
@@ -33,24 +36,47 @@ export default {
       "Introduction to Vectors",
       "Scalar Products and Vector Products"
     ];
+    this.hyperlink = [
+      "Surd&Rational",
+      "MathInduct",
+      "BinoThm",
+      "Trigo",
+      "Limits&e",
+      "Diff",
+      "AppDiff",
+      "IndefInteg",
+      "DefInteg",
+      "AppDefInteg",
+      "Matrices&Determin",
+      "LinearEqua",
+      "Vector",
+      "Scalar&VectorProducts"
+    ];
   },
 };
 </script>
 <style scoped>
 leftMenu,
 .container {
-  width: 20%;
-  height: 80%;
+
+}
+
+
+.sticky {
+  position: fixed;
+  word-wrap: break-word;
+  top: 0%;
+  /* bottom: 15%; */
+  font-size: 16px;
+  left: 0%;
+  width: 12%;
+  min-height: 100%;
   font-weight: bold;
-  background: palegreen;
-  display: block;
-}
-
-
-.left,
-.right,
-.middle {
   background: #c6f0c6;
-  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content:space-evenly
+  /* align-items: center; */
 }
+
 </style>

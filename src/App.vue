@@ -5,18 +5,20 @@
     <router-view></router-view>
   </div>
   <Footer />
+  <LeftMenu />
 </template>
 
 <script>
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-
+import LeftMenu from "./components/LeftMenu";
 
 export default {
   name: "App",
   components: {
     Header,
     Footer,
+    LeftMenu
   },
 };
 </script>
