@@ -4,20 +4,20 @@
   <div style="min-height: 78vh">
     <router-view></router-view>
   </div>
-  <Footer />
+  <!-- <Footer /> -->
   <LeftMenu />
 </template>
 
 <script>
 import Header from "./components/Header";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 import LeftMenu from "./components/LeftMenu";
 
 export default {
   name: "App",
   components: {
     Header,
-    Footer,
+    // Footer,
     LeftMenu
   },
 };
