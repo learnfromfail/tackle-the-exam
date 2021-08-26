@@ -7,6 +7,7 @@ import router from "./router";
 // createApp.config.productionTip = false;
 
 import MathJax, { initMathJax, renderByMathjax } from 'mathjax-vue'
+import {VueMathjax} from 'vue-mathjax'
 //const VueMathjax = require('vue-mathjax');
 //import  VueMathjax from "vue-mathjax";
 
@@ -22,5 +23,5 @@ initMathJax({}, onMathJaxReady)
 createApp(App)
   .use(router)
   .mount("#app")
-  .use(MathJax);
-  //.use(VueMathjax);
+  .use(MathJax)
+  .use(VueMathjax);
